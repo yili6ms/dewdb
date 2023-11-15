@@ -21,4 +21,6 @@ union : {token, {union_sym, TokenLine}}.
 [0-9]+ : {token, {digital, TokenLine, list_to_integer(TokenChars)}}.
 [a-z]+ : {token, {chars, TokenLine, TokenChars}}.
 
+[\s\n\r\t]+ : skip_token.
+
 Erlang code.
