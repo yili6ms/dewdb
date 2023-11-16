@@ -5,12 +5,12 @@ defmodule Dewdb do
 
   @doc """
   Hello world.
-
+  
   ## Examples
-
+  
       iex> Dewdb.hello()
       :world
-
+  
   """
   def hello do
     :world
